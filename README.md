@@ -36,8 +36,7 @@ The instruction execution cycle contains the following 5 stages in order:
 ![nonpipelined](https://user-images.githubusercontent.com/68592620/231771101-f7ea7e00-5c8c-4b6d-ae0c-a0419066e7ad.png)  
 ## ▫️ Pipelined DataPath  
 ![pipelined](https://user-images.githubusercontent.com/68592620/231771102-12c05fa9-6e74-4835-abc6-1bd9b20e8453.png)  
-## ▫️ EDAplayground Link  
-[https://edaplayground.com/x/t8Vx](https://edaplayground.com/x/t8Vx )  
+
 ## ▫️ Known problems and issues  
 Following pipelining hazards are present in the given design :  
 - Structural Hazards due to shared hardware.  
