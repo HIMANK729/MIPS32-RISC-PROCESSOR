@@ -1,18 +1,5 @@
 # Design of 5 Stage Pipelined MIPS32 RISC Processor  
 This repository contains the details and the code for the MIPS32 ISA based RISC Processor, which is implemented in 5 stage pipelined configuration.  
-## Table of contents  
-▫️ [MIPS32](https://github.com/arpit306/5-Stage-Pipelined-MIPS32-RISC-Processor-Design-on-Verilog#%EF%B8%8F-mips32)  
-▫️ [Addressing Modes](https://github.com/arpit306/5-Stage-Pipelined-MIPS32-RISC-Processor-Design-on-Verilog#%EF%B8%8F-addressing-modes)  
-▫️ [Instructions considered](https://github.com/arpit306/5-Stage-Pipelined-MIPS32-RISC-Processor-Design-on-Verilog#%EF%B8%8F-instructions-considered)  
-▫️ [Instruction Encoding](https://github.com/arpit306/5-Stage-Pipelined-MIPS32-RISC-Processor-Design-on-Verilog#%EF%B8%8F-instruction-encoding)  
-▫️ [Stages of Execution](https://github.com/arpit306/5-Stage-Pipelined-MIPS32-RISC-Processor-Design-on-Verilog#%EF%B8%8F-stages-of-execution)  
-▫️ [Non Pipelined DataPath](https://github.com/arpit306/5-Stage-Pipelined-MIPS32-RISC-Processor-Design-on-Verilog#%EF%B8%8F-non-pipelined-datapath)  
-▫️ [Pipelined DataPath](https://github.com/arpit306/5-Stage-Pipelined-MIPS32-RISC-Processor-Design-on-Verilog#%EF%B8%8F-pipelined-datapath)  
-▫️ [Verilog Design Code](https://github.com/arpit306/5-Stage-Pipelined-MIPS32-RISC-Processor-Design-on-Verilog/blob/main/mips32_design.v)  
-▫️ [Example Program Testbench Code](https://github.com/arpit306/5-Stage-Pipelined-MIPS32-RISC-Processor-Design-on-Verilog/blob/main/testbench.v)  
-▫️ [EDAplayground Link](https://edaplayground.com/x/t8Vx)  
-▫️ [Known issues and problems](https://github.com/arpit306/5-Stage-Pipelined-MIPS32-RISC-Processor-Design-on-Verilog#%EF%B8%8F-known-problems-and-issues)  
-▫️ [References](https://github.com/arpit306/5-Stage-Pipelined-MIPS32-RISC-Processor-Design-on-Verilog#%EF%B8%8F-references)  
 ## ▫️ MIPS32  
 - 32 x 32 bit GPRs [R0 to R31]  
 - R0 hardwired to logic0  
@@ -25,8 +12,8 @@ This repository contains the details and the code for the MIPS32 ISA based RISC 
 | Addressing Mode | Example Instruction |
 | -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Register addressing | ADD R1,R2,R3      |
-| Immediate addressing | ADDI R1,R2, 200       |
-| Base addressing      | LW R5, 150(R7)    |
+| Immediate addressing | ADDI R1,R2, 100       |
+| Base addressing      | LW R5, 100(R4)    |
 | PC relative addressing  | BEQZ R3, Label   |
 | Pseudo-direct addressing | J Label      |
 
